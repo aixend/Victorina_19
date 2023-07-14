@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="Результат "
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/correct_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_white_stroke"
+        android:padding="10dp"
+        android:text="Правильные ответы: 0"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/incorrect_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_white_stroke"
+        android:padding="10dp"
+        android:text="Неправильные ответы: 0"
+        android:textSize="32sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_again"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_back_white"
+        android:backgroundTint="#00BCD4"
+        android:text="Играть снова"
+        android:textColor="#0033AB"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
